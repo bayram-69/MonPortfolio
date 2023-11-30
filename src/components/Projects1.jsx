@@ -1,4 +1,4 @@
-import Maestro from "../assets/Maestrotask.png";
+import maestro from "../assets/maestrotask.png";
 
 function Projets1() {
   return (
@@ -18,7 +18,7 @@ function Projets1() {
       <div className="projet1-container">
         <div className="pictureProjet1">
           <a href="https://youns28100.github.io/MAESTRO-TASK/index.html">
-            <img src={Maestro} alt="Image du projet" className="projet1" />
+            <img src={maestro} alt="Image du projet" className="projet1" />
           </a>
           <ul className="line">
             <li>SUJET LIBRE</li>

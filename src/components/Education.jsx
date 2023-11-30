@@ -1,4 +1,4 @@
-import Image from "../assets/Photo.png";
+import image from "../assets/photo.png";
 
 function Education() {
   return (
@@ -28,7 +28,7 @@ function Education() {
           devant aucun défi technique.
         </p>
         <div className="card">
-          <img src={Image} alt="logo" className="picture1" />
+          <img src={image} alt="logo" className="picture1" />
         </div>
       </div>
     </section>

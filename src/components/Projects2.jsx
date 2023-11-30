@@ -1,4 +1,4 @@
-import Pokedek from "../assets/Pokedek.png";
+import pokedek from "../assets/pokedek.png";
 
 function Projets2() {
   return (
@@ -21,7 +21,7 @@ function Projets2() {
       <div className="pictureProjet2">
         <div className="picture-project2">
           <a href="https://projet2-sigma.vercel.app/">
-            <img src={Pokedek} alt="Image du projet" className="projet2" />
+            <img src={pokedek} alt="Image du projet" className="projet2" />
           </a>
           <ul className="line2">
             <li>SUJET LIBRE</li>
