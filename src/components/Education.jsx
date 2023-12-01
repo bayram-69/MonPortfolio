@@ -1,4 +1,4 @@
-import image from "../assets/photo.png";
+import image from "../../src/assets/photo1.png";
 
 function Education() {
   return (

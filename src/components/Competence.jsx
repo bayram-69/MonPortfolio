@@ -1,7 +1,7 @@
-import react from "../assets/react.png";
-import html from "../assets/html.png";
-import node from "../assets/node.png";
-import mysql from "../assets/mySql.png";
+import react from "../assets/react1.png";
+import html from "../assets/html1.png";
+import node from "../assets/node1.png";
+import mysql from "../assets/mySql1.png";
 
 function Competence() {
   return (

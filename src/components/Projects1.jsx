@@ -1,4 +1,4 @@
-import maestro from "../assets/maestrotask.png";
+import maestro from "../assets/maestrotask1.png";
 
 function Projets1() {
   return (

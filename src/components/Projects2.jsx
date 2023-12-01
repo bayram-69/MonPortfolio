@@ -1,4 +1,4 @@
-import pokedek from "../assets/pokedek.png";
+import pokedek from "../assets/pokedek1.png";
 
 function Projets2() {
   return (
