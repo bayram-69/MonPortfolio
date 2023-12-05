@@ -1,4 +1,6 @@
 import image from "../../src/assets/photo1.png";
+import introduction from "../../src/assets/introduction.png";
+import introduction1 from "../assets/introduction1.png";
 
 function Education() {
   return (
@@ -29,6 +31,8 @@ function Education() {
         </p>
         <div className="card">
           <img src={image} alt="logo" className="picture1" />
+          <img src={introduction} alt="logo" className="education-img" />
+          <img src={introduction1} alt="logo" className="education1-img" />
         </div>
       </div>
     </section>

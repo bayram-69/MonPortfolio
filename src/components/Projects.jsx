@@ -1,10 +1,20 @@
+import projet from "../assets/projet1.png";
+
 function Projets() {
   return (
     <section id="projects">
       <div className="title8">
         <h1>DEVELOPPEUR WEB- FULL STACK</h1>
-        <h2>projets</h2>
-        <h3>PROFESSIONNELS</h3>
+        <div className="gif3">
+          <div className="titre">
+            <h2>projets</h2>
+            <h3>PROFESSIONNELS</h3>
+          </div>
+          <div className="mon-projet">
+            <img src={projet} alt="html" className="projet-img" />
+          </div>
+        </div>
+        <div className="trait-horizontal"></div>
         <p>
           Voici quelques exemples de projets sur lesquels j&apos;ai eu le
           privilège de travailler, chacun reflétant mon engagement envers la

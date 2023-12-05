@@ -1,16 +1,20 @@
+import gif from "../../src/assets/gif.png";
+
 function Header() {
   return (
     <>
       <section id="header">
-        <div className="bg">
           <h1>DEVELOPPEUR FULL STACK</h1>
-          <button className="btn">
-            <a href="#contact">Contact</a>
-          </button>
-        </div>
         <div className="title">
-          <h2>Portfolio</h2>
-          <h3>TUGBA BAYRAM</h3>
+          <div className="gif1">
+            <div className="centered-content">
+              <h2>Portfolio</h2>
+              <h3>TUGBA BAYRAM</h3>
+            </div>
+            <div className="gif2">
+              <img src={gif} alt="node" className="gif" />
+            </div>
+          </div>
           <div className="trait-horizontal"></div>
           <div className="dev">
             <p>
