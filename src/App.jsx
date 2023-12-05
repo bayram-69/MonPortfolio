@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Competence from "./components/Competence";
 import Projects from "./components/Projects";
@@ -13,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Skills />
       <Education />
       <Competence />
       <Projects />

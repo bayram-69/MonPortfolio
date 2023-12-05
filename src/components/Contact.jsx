@@ -18,7 +18,6 @@ function Contact() {
       </p>
       <div className="trait-horizontal"></div>
       <ul className="call">
-
         <div className="container-icone">
           <div className="contact-item">
             <a href="mailto:tugbabayram69@gmail.com">

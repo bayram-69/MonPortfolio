@@ -9,8 +9,8 @@ function Header() {
           </button>
         </div>
         <div className="title">
-          <h2>Créative</h2>
-          <h3>PORTFOLIO</h3>
+          <h2>Portfolio</h2>
+          <h3>TUGBA BAYRAM</h3>
           <div className="trait-horizontal"></div>
           <div className="dev">
             <p>
@@ -20,7 +20,44 @@ function Header() {
             </p>
           </div>
           <div className="trait-horizontal"></div>
-          <button className="button">BY TUGBA BAYRAM</button>
+          <div className="buttons">
+            <button className="button1">
+              <a
+                href="#education"
+                className="button-link"
+                style={{ color: "#dfd8ca" }}
+              >
+                A PROPOS
+              </a>
+            </button>
+            <button className="button2">
+              <a
+                href="#competence"
+                className="button-link"
+                style={{ color: "black" }}
+              >
+                COMPETENCES
+              </a>
+            </button>
+            <button className="button5">
+              <a
+                href="#projects"
+                className="button-link"
+                style={{ color: "black" }}
+              >
+                PORTFOLIO
+              </a>
+            </button>
+            <button className="button6">
+              <a
+                href="#contact"
+                className="button-link"
+                style={{ color: "#dfd8ca" }}
+              >
+                CONTACT
+              </a>
+            </button>
+          </div>
         </div>
       </section>
     </>

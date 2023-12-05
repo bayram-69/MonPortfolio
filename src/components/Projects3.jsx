@@ -2,18 +2,21 @@ function Projets3() {
   return (
     <section id="Projects3">
       <h2>Projet 3</h2>
+      <h3>EATING NAM NAM</h3>
       <p>
-        Le projet 1 a été une expérience collaborative passionnante, où nous
-        étions une équipe de quatre personnes travaillant ensemble pour donner
-        vie à un site de post-it numériques.
+        Le projet 3 a représenté un défi stimulant où j&apos;ai fait partie
+        d&apos;une équipe de cinq personnes travaillant sur un sujet imposé,
+        avec l&apos;intégration backend comme composante clé. L&apos;utilisation
+        de la méthodologie Scrum a été cruciale dans l&apos;organisation
+        itérative de notre travail.
         <br />
         <br />
-        Cette initiative a démontré notre capacité à travailler en harmonie, à
-        mettre en commun nos compétences et à coordonner nos efforts pour créer
-        une plateforme intuitive et pratique. Notre site de post-it offre un
-        espace virtuel pour l&apos;organisation et la créativité, mettant en
-        avant notre engagement collectif envers la conception conviviale et le
-        développement web fonctionnel.
+        Au sein de l&apos;équipe, ma collaboration a mis en évidence ma capacité
+        à m&apos;adapter et à résoudre activement les problèmes. Mon rôle dans
+        l&apos;intégration du backend démontrent ma capacité à offrir des
+        solutions concrètes, soulignant ainsi mon engagement envers
+        l&apos;efficacité et la résolution de problèmes dans un contexte
+        professionnel.
       </p>
       <div className="picture-project3">
         <div className="pictureProjet3">
@@ -24,9 +27,9 @@ function Projets3() {
               className="projet3"
             />
           </a>
-          <ul className="line">
-            <li>SUJET LIBRE</li>
-            <li>HTML/ CSS/ JS</li>
+          <ul className="line3">
+            <li>SUJET IMPOSE</li>
+            <li>BACKEND/ FRONTEND</li>
           </ul>
         </div>
       </div>

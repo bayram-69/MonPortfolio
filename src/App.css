@@ -3,7 +3,7 @@ body {
 }
 
 section {
-  height: 80vh;
+  height: 95vh;
 }
 
 h1 {
@@ -56,6 +56,7 @@ h4 {
   background-color: #dfd8ca;
   border: 1px solid black;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 .btn a {
@@ -99,6 +100,7 @@ h4 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .trait-horizontal {
@@ -113,7 +115,7 @@ h4 {
   width: 80%;
   margin: 5px auto;
   padding: 10px 0;
-  margin-top: 25rem;
+  margin-top: 20rem;
 }
 
 p {
@@ -195,6 +197,10 @@ p {
   font-size: 70px;
 }
 
+#education .bg {
+  margin-top: 5rem;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -202,11 +208,6 @@ p {
   justify-content: center;
   justify-items: center;
   margin: 30px;
-}
-
-#skills h2 {
-  font-size: 70px;
-  margin-top: 10rem;
 }
 
 #education h1 {
@@ -280,9 +281,14 @@ p {
 
 .html,
 .react,
-.node,
-.mysql {
-  width: 80px;
+.node {
+  width: 85px;
+  height: auto;
+}
+
+.mysql,
+.express {
+  width: 120px;
   height: auto;
 }
 
@@ -296,12 +302,12 @@ p {
 
 #projects h1 {
   font-size: 25px;
-  margin-top: 30rem;
+  margin-top: 60rem;
   margin-bottom: 10rem;
 }
 
 #Projects1 h2 {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .image {
@@ -316,7 +322,7 @@ p {
   display: inline;
   margin: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   position: relative;
   z-index: 2;
@@ -326,7 +332,7 @@ p {
   display: inline;
   margin: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -336,12 +342,26 @@ p {
   z-index: 2;
 }
 
+.line3 li {
+  display: inline;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.line3 {
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
 #Projects2 h2 {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 #Projects3 h2 {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 .picture1 {
@@ -804,10 +824,6 @@ p {
     background-color: #b91646;
   }
 
-  .button3 {
-    background-color: #105652;
-  }
-
   .button6 {
     background-color: #b91646;
   }
@@ -826,7 +842,7 @@ p {
   }
 
   section {
-    height: 80vh;
+    height: 70vh;
   }
 
   .btn {
@@ -836,10 +852,15 @@ p {
     width: 120px;
     font-weight: bold;
   }
+
+  #projects h1 {
+    font-size: 25px;
+    margin-top: 40rem;
+    margin-bottom: 10rem;
+  }
 }
 
 @media (min-width: 1200px) {
-
   .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -859,5 +880,28 @@ p {
 
   section {
     height: 60vh;
+  }
+
+  #education .bg {
+    margin-top: 8rem;
+  }
+
+  #header h2 {
+    margin-top: 10rem;
+  }
+  #competence h1 {
+    margin-bottom: 5rem;
+  }
+
+  #Projects1 h2 {
+    margin-top: 10rem;
+  }
+
+  #Projects2 h2 {
+    margin-top: 5em;
+  }
+
+  #Projects3 h2 {
+    margin-top: 5em;
   }
 }
