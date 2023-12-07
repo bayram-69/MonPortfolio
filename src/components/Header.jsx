@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <section id="header">
-          <h1>DEVELOPPEUR FULL STACK</h1>
+        <h1>DEVELOPPEUR FULL STACK</h1>
         <div className="title">
           <div className="gif1">
             <div className="centered-content">
@@ -12,7 +12,11 @@ function Header() {
               <h3>TUGBA BAYRAM</h3>
             </div>
             <div className="gif2">
-              <img src={gif} alt="node" className="gif" />
+              {" "}
+              <a href="#contact">
+                <img src={gif} alt="node" className="gif" />
+                <div className="hover-message">Contactez moi</div>
+              </a>
             </div>
           </div>
           <div className="trait-horizontal"></div>
@@ -49,7 +53,7 @@ function Header() {
                 className="button-link"
                 style={{ color: "black" }}
               >
-                PORTFOLIO
+                PROJETS
               </a>
             </button>
             <button className="button6">

@@ -5,12 +5,7 @@ import introduction1 from "../assets/introduction1.png";
 function Education() {
   return (
     <section id="education">
-      <div className="bg">
-        <h1>DEVELOPPEUR FULL STACK</h1>
-        <button className="btn">
-          <a href="#contact">Contact</a>
-        </button>
-      </div>
+      <h1>DEVELOPPEUR FULL STACK</h1>
       <div className="title4">
         <h2>introduction</h2>
         <h3>A PROPOS</h3>

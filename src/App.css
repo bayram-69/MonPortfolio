@@ -120,11 +120,12 @@ h4 {
 
 p {
   flex: 1;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
   text-align: center;
   font-size: 14px;
   color: black;
+  /* font-family: "Bebas Neue", sans-serif; */
 }
 
 .button1 {
@@ -134,7 +135,9 @@ p {
   cursor: pointer;
   width: 150px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
 }
 
 .button2 {
@@ -143,7 +146,9 @@ p {
   cursor: pointer;
   width: 150px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
 }
 
 .button3 {
@@ -153,7 +158,9 @@ p {
   color: #dfd8ca;
   width: 150px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
 }
 
 .button4 {
@@ -163,7 +170,9 @@ p {
   cursor: pointer;
   width: 150px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
 }
 
 .button5 {
@@ -172,7 +181,9 @@ p {
   cursor: pointer;
   width: 150px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
 }
 
 .button6 {
@@ -181,7 +192,9 @@ p {
   cursor: pointer;
   width: 150px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
 }
 
 .title {
@@ -240,7 +253,7 @@ p {
 #competence h1 {
   font-size: 25px;
   margin-bottom: 8rem;
-  margin-top: 23rem;
+  margin-top: 20rem;
 }
 
 .frame1 {
@@ -265,6 +278,31 @@ p {
   font-weight: bold;
   width: 15rem;
   height: 20rem;
+  position: relative;
+}
+
+.competence-img {
+  position: absolute;
+  top: 17.5rem;
+  left: 10rem;
+  width: 55%;
+  animation: animation 2s infinite;
+}
+
+@keyframes animation {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
 }
 
 .frontend,
@@ -302,7 +340,7 @@ p {
 
 #projects h1 {
   font-size: 25px;
-  margin-top: 60rem;
+  margin-top: 28rem;
   margin-bottom: 10rem;
 }
 
@@ -357,7 +395,7 @@ p {
 }
 
 #Projects2 h2 {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 #Projects3 h2 {
@@ -386,6 +424,13 @@ p {
   width: 10rem;
   top: 20rem;
   left: 11rem;
+}
+
+.education1-img {
+  position: absolute;
+  width: 10rem;
+  bottom: 16rem;
+  right: 11rem;
 }
 
 .dev {
@@ -553,7 +598,7 @@ p {
 }
 
 #contact h2 {
-  font-size: 70px;
+  font-size: 80px;
 }
 
 #contact h3 {
@@ -573,7 +618,7 @@ p {
 .contact-item {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .projet1-container {
@@ -667,12 +712,13 @@ p {
   transform: scale(0.8);
 }
 
+.front-back {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+}
+
 @media (max-width: 719px) {
   .gif {
-    display: none;
-  }
-
-  .competence-img {
     display: none;
   }
 
@@ -684,7 +730,7 @@ p {
     display: none;
   }
 
-  .competence-img {
+  .gif2 .hover-message {
     display: none;
   }
 }
@@ -696,7 +742,10 @@ p {
   }
 
   p {
-    font-size: 17px;
+    font-size: 18px;
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+    /* font-family: "Bebas Neue", sans-serif; */
   }
 
   .picture-container {
@@ -724,9 +773,23 @@ p {
 
   .frame1,
   .frame2 {
-    width: 22rem;
+    width: 26rem;
+    height: 28rem;
     text-align: center;
     font-size: 16px;
+  }
+
+  .html,
+  .react,
+  .node {
+    width: 9rem;
+    height: auto;
+  }
+
+  .mysql,
+  .express {
+    width: 9rem;
+    height: auto;
   }
 
   .pictureProjet1 {
@@ -776,10 +839,6 @@ p {
 
   #contact h3 {
     font-size: 50px;
-  }
-
-  #contact h2 {
-    font-size: 38px;
   }
 
   .frame3 {
@@ -844,8 +903,8 @@ p {
 
   #projects h1 {
     font-size: 25px;
-    margin-top: 40rem;
-    margin-bottom: 10rem;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
   }
 
   .gif1 {
@@ -865,6 +924,21 @@ p {
     position: absolute;
     margin-left: 40rem;
     animation: bounce 2s infinite;
+    cursor: pointer;
+  }
+
+  .hover-message {
+    display: none;
+    position: absolute;
+    bottom: 9rem;
+    color: #b91646;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Brittany Signature", sans-serif;
+  }
+
+  .gif2:hover .hover-message {
+    display: block;
   }
 
   @keyframes bounce {
@@ -889,7 +963,7 @@ p {
 
   .competence-img {
     position: absolute;
-    top: 16.5rem;
+    top: 24rem;
     left: 12.5rem;
     width: 55%;
     animation: animation 2s infinite;
@@ -953,6 +1027,15 @@ p {
     bottom: 16rem;
     right: 12rem;
   }
+
+  #competence h2 {
+    margin-top: 1rem;
+  }
+
+  #competence h1 {
+    margin-bottom: 5rem;
+    margin-top: 17rem;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -987,7 +1070,7 @@ p {
 
   #competence h1 {
     margin-bottom: 5rem;
-    margin-top: 25rem;
+    margin-top: 18rem;
   }
 
   #Projects1 h2 {
@@ -1002,6 +1085,19 @@ p {
     margin-top: 5em;
   }
 
+  #projects h1 {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+
+  #contact h2 {
+    font-size: 75px;
+  }
+
+  #education h1 {
+    margin-top: 8rem;
+  }
+
   .frame2 {
     position: relative;
   }
@@ -1012,5 +1108,32 @@ p {
 
   .gif2 {
     margin-left: 75rem;
+    cursor: pointer;
+  }
+
+  .hover-message {
+    display: none;
+    position: absolute;
+    bottom: 9rem;
+    left: 10rem;
+    color: #b91646;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Brittany Signature", sans-serif;
+  }
+
+  .gif2:hover .hover-message {
+    display: block;
+  }
+
+  .competence-img {
+    position: absolute;
+    top: 24rem;
+    left: 18rem;
+    width: 55%;
+    animation: animation 2s infinite;
+  }
+  .contact-item {
+    font-size: 20px;
   }
 }

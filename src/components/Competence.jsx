@@ -8,18 +8,13 @@ import competence from "../assets/competence1.png";
 function Competence() {
   return (
     <section id="competence">
-      <div className="bg">
-        <h1>DEVELOPPEUR FULL STACK</h1>
-        <button className="btn">
-          <a href="#contact">Contact</a>
-        </button>
-      </div>
+      <h1>DEVELOPPEUR FULL STACK</h1>
       <div className="title">
         <h2>compétences</h2>
-        <h3>PERSONNELS</h3>
+        <h3>PERSONNELLES</h3>
         <div className="picture2">
           <div className="frame1">
-            <span>FRONTEND</span>
+            <div className="front-back">FRONTEND</div>
             <div className="frontend">
               <div className="image-container">
                 <img src={html} alt="html" className="html" />
@@ -27,13 +22,13 @@ function Competence() {
               <div className="image-container">
                 <img src={react} alt="react" className="react" />
               </div>
-              <div className="image-container">
+              {/* <div className="image-container">
                 <img src={node} alt="node" className="node" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="frame2">
-            <span>BACKEND</span>
+            <div className="front-back">BACKEND</div>
             <div className="backend">
               <div className="image-container">
                 <img src={mysql} alt="html" className="mysql" />
