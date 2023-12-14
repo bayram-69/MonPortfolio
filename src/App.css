@@ -272,6 +272,18 @@ p {
   border: 1px solid #000;
   padding: 10px;
   margin: 10px;
+  background-color: #f9c041;
+  text-align: left;
+  color: #dfd8ca;
+  font-weight: bold;
+  width: 15rem;
+  height: 20rem;
+}
+
+.frame4 {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
   background-color: #b91646;
   text-align: left;
   color: #dfd8ca;
@@ -324,6 +336,17 @@ p {
   height: auto;
 }
 
+.git,
+.tailwind {
+  width: 75px;
+  height: auto;
+}
+
+.figma {
+  width: 110px;
+  height: auto;
+}
+
 .mysql,
 .express {
   width: 120px;
@@ -340,7 +363,7 @@ p {
 
 #projects h1 {
   font-size: 25px;
-  margin-top: 28rem;
+  margin-top: 45rem;
   margin-bottom: 10rem;
 }
 
@@ -733,6 +756,14 @@ p {
   .gif2 .hover-message {
     display: none;
   }
+
+  .hover-messages {
+    display: none;
+  }
+
+  .mon-projet .hover-message {
+    display: none;
+  }
 }
 
 @media (min-width: 720px) {
@@ -772,7 +803,8 @@ p {
   }
 
   .frame1,
-  .frame2 {
+  .frame2,
+  .frame4 {
     width: 26rem;
     height: 28rem;
     text-align: center;
@@ -781,14 +813,21 @@ p {
 
   .html,
   .react,
-  .node {
+  .node,
+  .mysql,
+  .express {
     width: 9rem;
     height: auto;
   }
 
-  .mysql,
-  .express {
-    width: 9rem;
+  .git,
+  .tailwind {
+    width: 8rem;
+    height: auto;
+  }
+
+  .figma {
+    width: 10rem;
     height: auto;
   }
 
@@ -957,14 +996,30 @@ p {
     }
   }
 
-  .frame2 {
+  .frame4 {
     position: relative;
+    cursor: pointer;
+  }
+
+  .frame4:hover .hover-messages {
+    display: block;
+  }
+
+  .hover-messages {
+    display: none;
+    position: absolute;
+    top: 34rem;
+    color: #b91646;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Brittany Signature", sans-serif;
+    text-align: center;
   }
 
   .competence-img {
     position: absolute;
-    top: 24rem;
-    left: 12.5rem;
+    top: 26rem;
+    left: 9rem;
     width: 55%;
     animation: animation 2s infinite;
   }
@@ -1003,6 +1058,11 @@ p {
     position: absolute;
     margin-right: 70rem;
     animation: bounce 2s infinite;
+    cursor: pointer;
+  }
+
+  .mon-projet:hover .hover-message {
+    display: block;
   }
 
   .contact-img {
@@ -1098,8 +1158,9 @@ p {
     margin-top: 10rem;
   }
 
-  .frame2 {
+  .frame4 {
     position: relative;
+    cursor: pointer;
   }
 
   .gif {
@@ -1111,6 +1172,18 @@ p {
     cursor: pointer;
   }
 
+  .mon-projet {
+    cursor: pointer;
+  }
+
+  .mon-projet:hover .hover-message {
+    display: block;
+  }
+
+  .frame4:hover .hover-messages {
+    display: block;
+  }
+
   .hover-message {
     display: none;
     position: absolute;
@@ -1119,6 +1192,19 @@ p {
     font-size: 2.5rem;
     font-weight: bold;
     font-family: "Brittany Signature", sans-serif;
+    text-align: center;
+  }
+
+  .hover-messages {
+    display: none;
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+    color: #b91646;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Brittany Signature", sans-serif;
+    text-align: center;
   }
 
   .gif2:hover .hover-message {

@@ -12,7 +12,6 @@ function Header() {
               <h3>TUGBA BAYRAM</h3>
             </div>
             <div className="gif2">
-              {" "}
               <a href="#contact">
                 <img src={gif} alt="node" className="gif" />
                 <div className="hover-message">Contactez moi</div>

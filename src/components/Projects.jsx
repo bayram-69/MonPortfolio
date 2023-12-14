@@ -11,7 +11,10 @@ function Projets() {
             <h3>PROFESSIONNELS</h3>
           </div>
           <div className="mon-projet">
-            <img src={projet} alt="html" className="projet-img" />
+            <a href="#contact">
+              <img src={projet} alt="html" className="projet-img" />
+              <div className="hover-message">Contactez moi</div>
+            </a>
           </div>
         </div>
         <div className="trait-horizontal"></div>

@@ -1,6 +1,9 @@
 import react from "../assets/react1.png";
 import html from "../assets/html1.png";
 import node from "../assets/node1.png";
+import git from "../assets/git.png";
+import figma from "../assets/figma.png";
+import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/mySql1.png";
 import express from "../assets/express1.png";
 import competence from "../assets/competence1.png";
@@ -22,9 +25,6 @@ function Competence() {
               <div className="image-container">
                 <img src={react} alt="react" className="react" />
               </div>
-              {/* <div className="image-container">
-                <img src={node} alt="node" className="node" />
-              </div> */}
             </div>
           </div>
           <div className="frame2">
@@ -39,11 +39,28 @@ function Competence() {
               <div className="image-container">
                 <img src={node} alt="node" className="node" />
               </div>
-              <img
-                src={competence}
-                alt="competence-img"
-                className="competence-img"
-              />
+            </div>
+          </div>
+          <div className="frame4">
+            <div className="front-back">DESIGN</div>
+            <div className="frontend">
+              <div className="image-container">
+                <img src={git} alt="html" className="git" />
+              </div>
+              <div className="image-container">
+                <img src={figma} alt="react" className="figma" />
+              </div>
+              <div className="image-container">
+                <img src={tailwind} alt="react" className="tailwind" />
+              </div>
+              <a href="#contact">
+                <img
+                  src={competence}
+                  alt="competence-img"
+                  className="competence-img"
+                />
+                <div className="hover-messages">Contactez moi</div>
+              </a>
             </div>
           </div>
         </div>

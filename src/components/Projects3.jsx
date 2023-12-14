@@ -1,3 +1,5 @@
+import eating from "../assets/eating.png";
+
 function Projets3() {
   return (
     <section id="Projects3">
@@ -21,11 +23,7 @@ function Projets3() {
       <div className="picture-project3">
         <div className="pictureProjet3">
           <a href="index.html">
-            <img
-              src="https://img.freepik.com/vecteurs-libre/illustration-du-concept-programmation_114360-1213.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1696464000&semt=ais"
-              alt="Image du projet"
-              className="projet3"
-            />
+            <img src={eating} alt="Image du projet" className="projet3" />
           </a>
           <ul className="line3">
             <li>SUJET IMPOSE</li>
